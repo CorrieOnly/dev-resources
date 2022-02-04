@@ -1,0 +1,21 @@
+name: Update DB and README
+
+on:
+    push: { branches: main }
+    schedule:
+        # Every day at 00:00AM
+        - cron: '0 0 * * *'
+    workflow_dispatch:
+
+jobs:
+    update-db-and-readme:
+        runs-on: macos-latest
+        steps:
+            - uses: actions/checkout@v2
+            - uses: actions/setup-node@v1
+            - run: npm install
+            - run: npm run update-db
+            - run: npm run update-readme
+            - run: git add .
+            - run: git commit -m "Auto updating db and README.md"
+            - run: git push origin HEAD:main
