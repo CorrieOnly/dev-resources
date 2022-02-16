@@ -2262,11 +2262,11 @@ module.exports = [
             "Tools & Utilities/Public APIs"
         ],
         "links": {
-            "Website": "https://bhagavadgita.io/api"
+            "Website": "https://docs.bhagavadgitaapi.in"
         },
         "name": "Bhagavad Gita",
-        "description": "Bhagavad Gita text",
-        "auth": "OAuth",
+        "description": "Open Source Shrimad Bhagavad Gita API including 21+ authors translation in Sanskrit/English/Hindi",
+        "auth": "apiKey",
         "https": true,
         "cors": "yes",
         "apiCategory": "Books"
@@ -2276,11 +2276,11 @@ module.exports = [
             "Tools & Utilities/Public APIs"
         ],
         "links": {
-            "Website": "https://docs.bhagavadgitaapi.in"
+            "Website": "https://bhagavadgita.io/api"
         },
         "name": "Bhagavad Gita",
-        "description": "Open Source Shrimad Bhagavad Gita API including 21+ authors translation in Sanskrit/English/Hindi",
-        "auth": "apiKey",
+        "description": "Bhagavad Gita text",
+        "auth": "OAuth",
         "https": true,
         "cors": "yes",
         "apiCategory": "Books"
@@ -4983,17 +4983,6 @@ module.exports = [
         "icon": "https://cpwebassets.codepen.io/assets/favicon/favicon-touch-de50acbf5d634ec6791894eba4ba9cf490f709b3d742597c6fc4b734e6492a5a.png"
     },
     {
-        "name": "Codepen radio",
-        "categories": [
-            "Programming/Podcasts"
-        ],
-        "description": "A podcast all about what it's like running a small web software business. The good, the bad, and the ugly.",
-        "links": {
-            "Website": "https://blog.codepen.io/radio/"
-        },
-        "icon": "https://cpwebassets.codepen.io/assets/favicon/favicon-touch-de50acbf5d634ec6791894eba4ba9cf490f709b3d742597c6fc4b734e6492a5a.png"
-    },
-    {
         "name": "CodePen Radio",
         "categories": [
             "Programming/Podcasts"
@@ -5003,6 +4992,17 @@ module.exports = [
             "Website": "https://blog.codepen.io/radio/"
         },
         "icon": "https://blog.codepen.io/favicon.ico"
+    },
+    {
+        "name": "Codepen radio",
+        "categories": [
+            "Programming/Podcasts"
+        ],
+        "description": "A podcast all about what it's like running a small web software business. The good, the bad, and the ugly.",
+        "links": {
+            "Website": "https://blog.codepen.io/radio/"
+        },
+        "icon": "https://cpwebassets.codepen.io/assets/favicon/favicon-touch-de50acbf5d634ec6791894eba4ba9cf490f709b3d742597c6fc4b734e6492a5a.png"
     },
     {
         "name": "Codepip",
@@ -5585,17 +5585,6 @@ module.exports = [
         "icon": "https://colorlib.com/wp/wp-content/uploads/sites/2/2014/05/ipad-colorlib.png"
     },
     {
-        "name": "Colormind",
-        "categories": [
-            "UI Design/Color"
-        ],
-        "description": "Generate color combinations in one click. Colormind creates cohesive color schemes using a deep neural net.",
-        "links": {
-            "Website": "http://colormind.io/"
-        },
-        "icon": "http://colormind.io/favicon32.gif"
-    },
-    {
         "categories": [
             "Tools & Utilities/Public APIs"
         ],
@@ -5608,6 +5597,17 @@ module.exports = [
         "https": false,
         "cors": "unknown",
         "apiCategory": "Art & Design"
+    },
+    {
+        "name": "Colormind",
+        "categories": [
+            "UI Design/Color"
+        ],
+        "description": "Generate color combinations in one click. Colormind creates cohesive color schemes using a deep neural net.",
+        "links": {
+            "Website": "http://colormind.io/"
+        },
+        "icon": "http://colormind.io/favicon32.gif"
     },
     {
         "name": "colors.lol",
@@ -7684,10 +7684,10 @@ module.exports = [
             "Tools & Utilities/Public APIs"
         ],
         "links": {
-            "Website": "https://kinduff.github.io/dog-api/"
+            "Website": "https://dukengn.github.io/Dog-facts-API/"
         },
         "name": "Dog Facts",
-        "description": "Random facts of Dogs",
+        "description": "Random dog facts",
         "auth": "",
         "https": true,
         "cors": "yes",
@@ -7698,10 +7698,10 @@ module.exports = [
             "Tools & Utilities/Public APIs"
         ],
         "links": {
-            "Website": "https://dukengn.github.io/Dog-facts-API/"
+            "Website": "https://kinduff.github.io/dog-api/"
         },
         "name": "Dog Facts",
-        "description": "Random dog facts",
+        "description": "Random facts of Dogs",
         "auth": "",
         "https": true,
         "cors": "yes",
@@ -9940,6 +9940,17 @@ module.exports = [
         "icon": "https://freeicons.io/asset/images/favicon.png"
     },
     {
+        "name": "Freelancer",
+        "categories": [
+            "Jobs/Freelancing"
+        ],
+        "description": "Find & hire top freelancers, web developers & designers inexpensively. World's largest marketplace of 48m. Receive quotes in seconds. Post your job online now.",
+        "links": {
+            "Website": "https://www.freelancer.com/"
+        },
+        "icon": "https://www.f-cdn.com/assets/main/en/app-icons/apple-touch-icon.png"
+    },
+    {
         "categories": [
             "Tools & Utilities/Public APIs"
         ],
@@ -9952,17 +9963,6 @@ module.exports = [
         "https": true,
         "cors": "unknown",
         "apiCategory": "Business"
-    },
-    {
-        "name": "Freelancer",
-        "categories": [
-            "Jobs/Freelancing"
-        ],
-        "description": "Find & hire top freelancers, web developers & designers inexpensively. World's largest marketplace of 48m. Receive quotes in seconds. Post your job online now.",
-        "links": {
-            "Website": "https://www.freelancer.com/"
-        },
-        "icon": "https://www.f-cdn.com/assets/main/en/app-icons/apple-touch-icon.png"
     },
     {
         "name": "FreePhotos.cc",
@@ -11200,17 +11200,6 @@ module.exports = [
         "apiCategory": "Development"
     },
     {
-        "name": "Google Fonts",
-        "categories": [
-            "Assets/Fonts"
-        ],
-        "description": "Making the web more beautiful, fast, and open through great typography.",
-        "links": {
-            "Website": "https://fonts.google.com/"
-        },
-        "icon": "https://www.gstatic.com/images/branding/product/1x/google_fonts_blue_ios_96dp.png"
-    },
-    {
         "categories": [
             "Tools & Utilities/Public APIs"
         ],
@@ -11223,6 +11212,17 @@ module.exports = [
         "https": true,
         "cors": "unknown",
         "apiCategory": "Development"
+    },
+    {
+        "name": "Google Fonts",
+        "categories": [
+            "Assets/Fonts"
+        ],
+        "description": "Making the web more beautiful, fast, and open through great typography.",
+        "links": {
+            "Website": "https://fonts.google.com/"
+        },
+        "icon": "https://www.gstatic.com/images/branding/product/1x/google_fonts_blue_ios_96dp.png"
     },
     {
         "categories": [
@@ -11928,17 +11928,6 @@ module.exports = [
         "apiCategory": "Security"
     },
     {
-        "name": "Hashnode",
-        "categories": [
-            "Community/Blogs & Forums"
-        ],
-        "description": "Hashnode is a free content creation platform and community that allows you to publish articles on your own domain and helps you stay connected with a growing developer community.",
-        "links": {
-            "Website": "https://hashnode.com/"
-        },
-        "icon": "https://cdn.hashnode.com/res/hashnode/image/upload/v1592400819640/7VL8RW7wc.png"
-    },
-    {
         "categories": [
             "Tools & Utilities/Public APIs"
         ],
@@ -11951,6 +11940,17 @@ module.exports = [
         "https": true,
         "cors": "unknown",
         "apiCategory": "Social"
+    },
+    {
+        "name": "Hashnode",
+        "categories": [
+            "Community/Blogs & Forums"
+        ],
+        "description": "Hashnode is a free content creation platform and community that allows you to publish articles on your own domain and helps you stay connected with a growing developer community.",
+        "links": {
+            "Website": "https://hashnode.com/"
+        },
+        "icon": "https://cdn.hashnode.com/res/hashnode/image/upload/v1592400819640/7VL8RW7wc.png"
     },
     {
         "categories": [
@@ -12122,17 +12122,6 @@ module.exports = [
         "icon": "https://heroicons.com/_next/static/media/favicon-32x32.eee32601ba9d4702f841835990ed3801.png"
     },
     {
-        "name": "Heroku",
-        "categories": [
-            "Infrastructure/Hosting"
-        ],
-        "description": "Heroku is a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud.",
-        "links": {
-            "Website": "https://www.heroku.com/"
-        },
-        "icon": "https://www.herokucdn.com/favicon.ico"
-    },
-    {
         "categories": [
             "Tools & Utilities/Public APIs"
         ],
@@ -12145,6 +12134,17 @@ module.exports = [
         "https": true,
         "cors": "yes",
         "apiCategory": "Development"
+    },
+    {
+        "name": "Heroku",
+        "categories": [
+            "Infrastructure/Hosting"
+        ],
+        "description": "Heroku is a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud.",
+        "links": {
+            "Website": "https://www.heroku.com/"
+        },
+        "icon": "https://www.herokucdn.com/favicon.ico"
     },
     {
         "name": "Hey Meta",
@@ -12717,6 +12717,20 @@ module.exports = [
         "apiCategory": "Transportation"
     },
     {
+        "categories": [
+            "Tools & Utilities/Public APIs"
+        ],
+        "links": {
+            "Website": "https://icon.horse"
+        },
+        "name": "Icon Horse",
+        "description": "Favicons for any website, with fallbacks",
+        "auth": "",
+        "https": true,
+        "cors": "yes",
+        "apiCategory": "Art & Design"
+    },
+    {
         "name": "Icon Horse",
         "categories": [
             "Assets/Icons"
@@ -12734,20 +12748,6 @@ module.exports = [
             "Twitter": "https://twitter.com/iconhorse"
         },
         "icon": "https://icon.horse/icon/icon.horse"
-    },
-    {
-        "categories": [
-            "Tools & Utilities/Public APIs"
-        ],
-        "links": {
-            "Website": "https://icon.horse"
-        },
-        "name": "Icon Horse",
-        "description": "Favicons for any website, with fallbacks",
-        "auth": "",
-        "https": true,
-        "cors": "yes",
-        "apiCategory": "Art & Design"
     },
     {
         "categories": [
@@ -17613,20 +17613,6 @@ module.exports = [
             "Tools & Utilities/Public APIs"
         ],
         "links": {
-            "Website": "https://isdayoff.ru"
-        },
-        "name": "Non-Working Days",
-        "description": "Simple REST API for checking working, non-working or short days for Russia, CIS, USA and other",
-        "auth": "",
-        "https": true,
-        "cors": "yes",
-        "apiCategory": "Calendar"
-    },
-    {
-        "categories": [
-            "Tools & Utilities/Public APIs"
-        ],
-        "links": {
             "Website": "https://github.com/gadael/icsdb"
         },
         "name": "Non-Working Days",
@@ -17634,6 +17620,20 @@ module.exports = [
         "auth": "",
         "https": true,
         "cors": "unknown",
+        "apiCategory": "Calendar"
+    },
+    {
+        "categories": [
+            "Tools & Utilities/Public APIs"
+        ],
+        "links": {
+            "Website": "https://isdayoff.ru"
+        },
+        "name": "Non-Working Days",
+        "description": "Simple REST API for checking working, non-working or short days for Russia, CIS, USA and other",
+        "auth": "",
+        "https": true,
+        "cors": "yes",
         "apiCategory": "Calendar"
     },
     {
@@ -17816,12 +17816,12 @@ module.exports = [
             "Tools & Utilities/Public APIs"
         ],
         "links": {
-            "Website": "http://numbersapi.com"
+            "Website": "https://math.tools/api/numbers/"
         },
         "name": "Numbers",
-        "description": "Facts about numbers",
-        "auth": "",
-        "https": false,
+        "description": "Number of the day, random number, number facts and anything else you want to do with numbers",
+        "auth": "apiKey",
+        "https": true,
         "cors": "no",
         "apiCategory": "Science & Math"
     },
@@ -17830,12 +17830,12 @@ module.exports = [
             "Tools & Utilities/Public APIs"
         ],
         "links": {
-            "Website": "https://math.tools/api/numbers/"
+            "Website": "http://numbersapi.com"
         },
         "name": "Numbers",
-        "description": "Number of the day, random number, number facts and anything else you want to do with numbers",
-        "auth": "apiKey",
-        "https": true,
+        "description": "Facts about numbers",
+        "auth": "",
+        "https": false,
         "cors": "no",
         "apiCategory": "Science & Math"
     },
@@ -18499,10 +18499,10 @@ module.exports = [
             "Tools & Utilities/Public APIs"
         ],
         "links": {
-            "Website": "https://datos.gob.mx/"
+            "Website": "https://www.inegi.org.mx/datos/"
         },
         "name": "Open Government, Mexico",
-        "description": "Mexico Government Open Data",
+        "description": "Mexican Statistical Government Open Data",
         "auth": "",
         "https": true,
         "cors": "unknown",
@@ -18513,10 +18513,10 @@ module.exports = [
             "Tools & Utilities/Public APIs"
         ],
         "links": {
-            "Website": "https://www.inegi.org.mx/datos/"
+            "Website": "https://datos.gob.mx/"
         },
         "name": "Open Government, Mexico",
-        "description": "Mexican Statistical Government Open Data",
+        "description": "Mexico Government Open Data",
         "auth": "",
         "https": true,
         "cors": "unknown",
@@ -22937,19 +22937,6 @@ module.exports = [
         "apiCategory": "URL Shorteners"
     },
     {
-        "name": "Shutterstock",
-        "categories": [
-            "Assets/Videos",
-            "Assets/Images",
-            "Assets/Icons"
-        ],
-        "description": "Download the best royalty free images from Shutterstock, including photos, vectors, and illustrations. Enjoy straightforward pricing and simple licensing.",
-        "links": {
-            "Website": "https://www.shutterstock.com/"
-        },
-        "icon": "https://ak.picdn.net/assets/cms/sstk-favicon-72.png"
-    },
-    {
         "categories": [
             "Tools & Utilities/Public APIs"
         ],
@@ -22962,6 +22949,19 @@ module.exports = [
         "https": true,
         "cors": "unknown",
         "apiCategory": "Photography"
+    },
+    {
+        "name": "Shutterstock",
+        "categories": [
+            "Assets/Videos",
+            "Assets/Images",
+            "Assets/Icons"
+        ],
+        "description": "Download the best royalty free images from Shutterstock, including photos, vectors, and illustrations. Enjoy straightforward pricing and simple licensing.",
+        "links": {
+            "Website": "https://www.shutterstock.com/"
+        },
+        "icon": "https://ak.picdn.net/assets/cms/sstk-favicon-72.png"
     },
     {
         "name": "Sidebar",
@@ -23957,11 +23957,11 @@ module.exports = [
             "Tools & Utilities/Public APIs"
         ],
         "links": {
-            "Website": "https://steamapi.xpaw.me/"
+            "Website": "https://github.com/Revadike/InternalSteamWebAPI/wiki"
         },
         "name": "Steam",
-        "description": "Steam Web API documentation",
-        "auth": "apiKey",
+        "description": "Internal Steam Web API documentation",
+        "auth": "",
         "https": true,
         "cors": "no",
         "apiCategory": "Games & Comics"
@@ -23971,11 +23971,11 @@ module.exports = [
             "Tools & Utilities/Public APIs"
         ],
         "links": {
-            "Website": "https://github.com/Revadike/InternalSteamWebAPI/wiki"
+            "Website": "https://steamapi.xpaw.me/"
         },
         "name": "Steam",
-        "description": "Internal Steam Web API documentation",
-        "auth": "",
+        "description": "Steam Web API documentation",
+        "auth": "apiKey",
         "https": true,
         "cors": "no",
         "apiCategory": "Games & Comics"
@@ -26140,12 +26140,12 @@ module.exports = [
             "Tools & Utilities/Public APIs"
         ],
         "links": {
-            "Website": "http://www.ns.nl/reisinformatie/ns-api"
+            "Website": "https://github.com/skywave/KV78Turbo-OVAPI/wiki"
         },
         "name": "Transport for The Netherlands",
-        "description": "NS, only trains",
-        "auth": "apiKey",
-        "https": false,
+        "description": "OVAPI, country-wide public transport",
+        "auth": "",
+        "https": true,
         "cors": "unknown",
         "apiCategory": "Transportation"
     },
@@ -26154,12 +26154,12 @@ module.exports = [
             "Tools & Utilities/Public APIs"
         ],
         "links": {
-            "Website": "https://github.com/skywave/KV78Turbo-OVAPI/wiki"
+            "Website": "http://www.ns.nl/reisinformatie/ns-api"
         },
         "name": "Transport for The Netherlands",
-        "description": "OVAPI, country-wide public transport",
-        "auth": "",
-        "https": true,
+        "description": "NS, only trains",
+        "auth": "apiKey",
+        "https": false,
         "cors": "unknown",
         "apiCategory": "Transportation"
     },
@@ -28498,6 +28498,20 @@ module.exports = [
             "Website": "https://www.wix.com/"
         },
         "icon": "https://www.wix.com/favicon.ico"
+    },
+    {
+        "categories": [
+            "Tools & Utilities/Public APIs"
+        ],
+        "links": {
+            "Website": "https://wizard-world-api.herokuapp.com/swagger/index.html"
+        },
+        "name": "Wizard World",
+        "description": "Get information from the Harry Potter universe",
+        "auth": "",
+        "https": true,
+        "cors": "yes",
+        "apiCategory": "Books"
     },
     {
         "categories": [
