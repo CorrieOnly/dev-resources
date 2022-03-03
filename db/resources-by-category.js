@@ -859,6 +859,20 @@ module.exports = {
                 "Tools & Utilities/Public APIs"
             ],
             "links": {
+                "Website": "https://apiip.net/"
+            },
+            "name": "Apiip",
+            "description": "Get location information by IP address",
+            "auth": "apiKey",
+            "https": true,
+            "cors": "yes",
+            "apiCategory": "Geocoding"
+        },
+        {
+            "categories": [
+                "Tools & Utilities/Public APIs"
+            ],
+            "links": {
                 "Website": "https://aviationstack.com/"
             },
             "name": "apilayer aviationstack",
@@ -6215,6 +6229,20 @@ module.exports = {
             "https": false,
             "cors": "unknown",
             "apiCategory": "Government"
+        },
+        {
+            "categories": [
+                "Tools & Utilities/Public APIs"
+            ],
+            "links": {
+                "Website": "https://fdc.nal.usda.gov/"
+            },
+            "name": "FoodData Central",
+            "description": "National Nutrient Database for Standard Reference",
+            "auth": "apiKey",
+            "https": true,
+            "cors": "unknown",
+            "apiCategory": "Health"
         },
         {
             "categories": [
@@ -11807,20 +11835,6 @@ module.exports = {
                 "Tools & Utilities/Public APIs"
             ],
             "links": {
-                "Website": "https://isdayoff.ru"
-            },
-            "name": "Non-Working Days",
-            "description": "Simple REST API for checking working, non-working or short days for Russia, CIS, USA and other",
-            "auth": "",
-            "https": true,
-            "cors": "yes",
-            "apiCategory": "Calendar"
-        },
-        {
-            "categories": [
-                "Tools & Utilities/Public APIs"
-            ],
-            "links": {
                 "Website": "https://github.com/gadael/icsdb"
             },
             "name": "Non-Working Days",
@@ -11828,6 +11842,20 @@ module.exports = {
             "auth": "",
             "https": true,
             "cors": "unknown",
+            "apiCategory": "Calendar"
+        },
+        {
+            "categories": [
+                "Tools & Utilities/Public APIs"
+            ],
+            "links": {
+                "Website": "https://isdayoff.ru"
+            },
+            "name": "Non-Working Days",
+            "description": "Simple REST API for checking working, non-working or short days for Russia, CIS, USA and other",
+            "auth": "",
+            "https": true,
+            "cors": "yes",
             "apiCategory": "Calendar"
         },
         {
@@ -12549,10 +12577,10 @@ module.exports = {
                 "Tools & Utilities/Public APIs"
             ],
             "links": {
-                "Website": "https://datos.gob.mx/"
+                "Website": "https://www.inegi.org.mx/datos/"
             },
             "name": "Open Government, Mexico",
-            "description": "Mexico Government Open Data",
+            "description": "Mexican Statistical Government Open Data",
             "auth": "",
             "https": true,
             "cors": "unknown",
@@ -12563,10 +12591,10 @@ module.exports = {
                 "Tools & Utilities/Public APIs"
             ],
             "links": {
-                "Website": "https://www.inegi.org.mx/datos/"
+                "Website": "https://datos.gob.mx/"
             },
             "name": "Open Government, Mexico",
-            "description": "Mexican Statistical Government Open Data",
+            "description": "Mexico Government Open Data",
             "auth": "",
             "https": true,
             "cors": "unknown",
@@ -14327,20 +14355,6 @@ module.exports = {
                 "Tools & Utilities/Public APIs"
             ],
             "links": {
-                "Website": "https://www.qrtag.net/api/"
-            },
-            "name": "QR code",
-            "description": "Create an easy to read QR code and URL shortener",
-            "auth": "",
-            "https": true,
-            "cors": "yes",
-            "apiCategory": "Development"
-        },
-        {
-            "categories": [
-                "Tools & Utilities/Public APIs"
-            ],
-            "links": {
                 "Website": "http://goqr.me/api/"
             },
             "name": "QR code",
@@ -14348,6 +14362,20 @@ module.exports = {
             "auth": "",
             "https": true,
             "cors": "unknown",
+            "apiCategory": "Development"
+        },
+        {
+            "categories": [
+                "Tools & Utilities/Public APIs"
+            ],
+            "links": {
+                "Website": "https://www.qrtag.net/api/"
+            },
+            "name": "QR code",
+            "description": "Create an easy to read QR code and URL shortener",
+            "auth": "",
+            "https": true,
+            "cors": "yes",
             "apiCategory": "Development"
         },
         {
@@ -16021,20 +16049,6 @@ module.exports = {
                 "Tools & Utilities/Public APIs"
             ],
             "links": {
-                "Website": "https://api.spacex.land/graphql/"
-            },
-            "name": "SpaceX",
-            "description": "GraphQL, Company, Ships, launchpad and launch data",
-            "auth": "",
-            "https": true,
-            "cors": "unknown",
-            "apiCategory": "Science & Math"
-        },
-        {
-            "categories": [
-                "Tools & Utilities/Public APIs"
-            ],
-            "links": {
                 "Website": "https://github.com/r-spacex/SpaceX-API"
             },
             "name": "SpaceX",
@@ -16042,6 +16056,20 @@ module.exports = {
             "auth": "",
             "https": true,
             "cors": "no",
+            "apiCategory": "Science & Math"
+        },
+        {
+            "categories": [
+                "Tools & Utilities/Public APIs"
+            ],
+            "links": {
+                "Website": "https://api.spacex.land/graphql/"
+            },
+            "name": "SpaceX",
+            "description": "GraphQL, Company, Ships, launchpad and launch data",
+            "auth": "",
+            "https": true,
+            "cors": "unknown",
             "apiCategory": "Science & Math"
         },
         {
@@ -17827,20 +17855,6 @@ module.exports = {
                 "Tools & Utilities/Public APIs"
             ],
             "links": {
-                "Website": "https://opentransportdata.swiss/en/"
-            },
-            "name": "Transport for Switzerland",
-            "description": "Official Swiss Public Transport Open Data",
-            "auth": "apiKey",
-            "https": true,
-            "cors": "unknown",
-            "apiCategory": "Transportation"
-        },
-        {
-            "categories": [
-                "Tools & Utilities/Public APIs"
-            ],
-            "links": {
                 "Website": "https://transport.opendata.ch/"
             },
             "name": "Transport for Switzerland",
@@ -17855,11 +17869,11 @@ module.exports = {
                 "Tools & Utilities/Public APIs"
             ],
             "links": {
-                "Website": "https://github.com/skywave/KV78Turbo-OVAPI/wiki"
+                "Website": "https://opentransportdata.swiss/en/"
             },
-            "name": "Transport for The Netherlands",
-            "description": "OVAPI, country-wide public transport",
-            "auth": "",
+            "name": "Transport for Switzerland",
+            "description": "Official Swiss Public Transport Open Data",
+            "auth": "apiKey",
             "https": true,
             "cors": "unknown",
             "apiCategory": "Transportation"
@@ -17875,6 +17889,20 @@ module.exports = {
             "description": "NS, only trains",
             "auth": "apiKey",
             "https": false,
+            "cors": "unknown",
+            "apiCategory": "Transportation"
+        },
+        {
+            "categories": [
+                "Tools & Utilities/Public APIs"
+            ],
+            "links": {
+                "Website": "https://github.com/skywave/KV78Turbo-OVAPI/wiki"
+            },
+            "name": "Transport for The Netherlands",
+            "description": "OVAPI, country-wide public transport",
+            "auth": "",
+            "https": true,
             "cors": "unknown",
             "apiCategory": "Transportation"
         },
@@ -18619,20 +18647,6 @@ module.exports = {
             "https": true,
             "cors": "unknown",
             "apiCategory": "Government"
-        },
-        {
-            "categories": [
-                "Tools & Utilities/Public APIs"
-            ],
-            "links": {
-                "Website": "https://fdc.nal.usda.gov/"
-            },
-            "name": "USDA Nutrients",
-            "description": "National Nutrient Database for Standard Reference",
-            "auth": "apiKey",
-            "https": true,
-            "cors": "unknown",
-            "apiCategory": "Health"
         },
         {
             "categories": [
@@ -19557,6 +19571,20 @@ module.exports = {
             "https": true,
             "cors": "yes",
             "apiCategory": "Art & Design"
+        },
+        {
+            "categories": [
+                "Tools & Utilities/Public APIs"
+            ],
+            "links": {
+                "Website": "https://xeno-canto.org/explore/api"
+            },
+            "name": "xeno-canto",
+            "description": "Bird recordings",
+            "auth": "",
+            "https": true,
+            "cors": "unknown",
+            "apiCategory": "Animals"
         },
         {
             "categories": [
