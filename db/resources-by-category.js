@@ -1671,11 +1671,11 @@ module.exports = {
                 "Tools & Utilities/Public APIs"
             ],
             "links": {
-                "Website": "https://docs.bhagavadgitaapi.in"
+                "Website": "https://bhagavadgita.io/api"
             },
             "name": "Bhagavad Gita",
-            "description": "Open Source Shrimad Bhagavad Gita API including 21+ authors translation in Sanskrit/English/Hindi",
-            "auth": "apiKey",
+            "description": "Bhagavad Gita text",
+            "auth": "OAuth",
             "https": true,
             "cors": "yes",
             "apiCategory": "Books"
@@ -1685,11 +1685,11 @@ module.exports = {
                 "Tools & Utilities/Public APIs"
             ],
             "links": {
-                "Website": "https://bhagavadgita.io/api"
+                "Website": "https://docs.bhagavadgitaapi.in"
             },
             "name": "Bhagavad Gita",
-            "description": "Bhagavad Gita text",
-            "auth": "OAuth",
+            "description": "Open Source Shrimad Bhagavad Gita API including 21+ authors translation in Sanskrit/English/Hindi",
+            "auth": "apiKey",
             "https": true,
             "cors": "yes",
             "apiCategory": "Books"
@@ -5115,10 +5115,10 @@ module.exports = {
                 "Tools & Utilities/Public APIs"
             ],
             "links": {
-                "Website": "https://kinduff.github.io/dog-api/"
+                "Website": "https://dukengn.github.io/Dog-facts-API/"
             },
             "name": "Dog Facts",
-            "description": "Random facts of Dogs",
+            "description": "Random dog facts",
             "auth": "",
             "https": true,
             "cors": "yes",
@@ -5129,10 +5129,10 @@ module.exports = {
                 "Tools & Utilities/Public APIs"
             ],
             "links": {
-                "Website": "https://dukengn.github.io/Dog-facts-API/"
+                "Website": "https://kinduff.github.io/dog-api/"
             },
             "name": "Dog Facts",
-            "description": "Random dog facts",
+            "description": "Random facts of Dogs",
             "auth": "",
             "https": true,
             "cors": "yes",
@@ -8055,6 +8055,20 @@ module.exports = {
                 "Tools & Utilities/Public APIs"
             ],
             "links": {
+                "Website": "https://rates.hirak.site/"
+            },
+            "name": "Hirak Exchange Rates",
+            "description": "Exchange rates between 162 currency & 300 crypto currency update each 5 min, accurate, no limits",
+            "auth": "apiKey",
+            "https": true,
+            "cors": "unknown",
+            "apiCategory": "Cryptocurrency"
+        },
+        {
+            "categories": [
+                "Tools & Utilities/Public APIs"
+            ],
+            "links": {
                 "Website": "https://holidayapi.com/"
             },
             "name": "Holidays",
@@ -9939,6 +9953,20 @@ module.exports = {
             "https": true,
             "cors": "unknown",
             "apiCategory": "Food & Drink"
+        },
+        {
+            "categories": [
+                "Tools & Utilities/Public APIs"
+            ],
+            "links": {
+                "Website": "https://rapidapi.com/lecto-lecto-default/api/lecto-translation/"
+            },
+            "name": "Lecto Translation",
+            "description": "Translation API with free tier and reasonable prices",
+            "auth": "apiKey",
+            "https": true,
+            "cors": "yes",
+            "apiCategory": "Text Analysis"
         },
         {
             "categories": [
@@ -11835,20 +11863,6 @@ module.exports = {
                 "Tools & Utilities/Public APIs"
             ],
             "links": {
-                "Website": "https://github.com/gadael/icsdb"
-            },
-            "name": "Non-Working Days",
-            "description": "Database of ICS files for non working days",
-            "auth": "",
-            "https": true,
-            "cors": "unknown",
-            "apiCategory": "Calendar"
-        },
-        {
-            "categories": [
-                "Tools & Utilities/Public APIs"
-            ],
-            "links": {
                 "Website": "https://isdayoff.ru"
             },
             "name": "Non-Working Days",
@@ -11856,6 +11870,20 @@ module.exports = {
             "auth": "",
             "https": true,
             "cors": "yes",
+            "apiCategory": "Calendar"
+        },
+        {
+            "categories": [
+                "Tools & Utilities/Public APIs"
+            ],
+            "links": {
+                "Website": "https://github.com/gadael/icsdb"
+            },
+            "name": "Non-Working Days",
+            "description": "Database of ICS files for non working days",
+            "auth": "",
+            "https": true,
+            "cors": "unknown",
             "apiCategory": "Calendar"
         },
         {
@@ -11989,12 +12017,12 @@ module.exports = {
                 "Tools & Utilities/Public APIs"
             ],
             "links": {
-                "Website": "https://math.tools/api/numbers/"
+                "Website": "http://numbersapi.com"
             },
             "name": "Numbers",
-            "description": "Number of the day, random number, number facts and anything else you want to do with numbers",
-            "auth": "apiKey",
-            "https": true,
+            "description": "Facts about numbers",
+            "auth": "",
+            "https": false,
             "cors": "no",
             "apiCategory": "Science & Math"
         },
@@ -12003,12 +12031,12 @@ module.exports = {
                 "Tools & Utilities/Public APIs"
             ],
             "links": {
-                "Website": "http://numbersapi.com"
+                "Website": "https://math.tools/api/numbers/"
             },
             "name": "Numbers",
-            "description": "Facts about numbers",
-            "auth": "",
-            "https": false,
+            "description": "Number of the day, random number, number facts and anything else you want to do with numbers",
+            "auth": "apiKey",
+            "https": true,
             "cors": "no",
             "apiCategory": "Science & Math"
         },
@@ -12591,10 +12619,10 @@ module.exports = {
                 "Tools & Utilities/Public APIs"
             ],
             "links": {
-                "Website": "https://datos.gob.mx/"
+                "Website": "https://www.inegi.org.mx/datos/"
             },
             "name": "Open Government, Mexico",
-            "description": "Mexico Government Open Data",
+            "description": "Mexican Statistical Government Open Data",
             "auth": "",
             "https": true,
             "cors": "unknown",
@@ -12605,10 +12633,10 @@ module.exports = {
                 "Tools & Utilities/Public APIs"
             ],
             "links": {
-                "Website": "https://www.inegi.org.mx/datos/"
+                "Website": "https://datos.gob.mx/"
             },
             "name": "Open Government, Mexico",
-            "description": "Mexican Statistical Government Open Data",
+            "description": "Mexico Government Open Data",
             "auth": "",
             "https": true,
             "cors": "unknown",
@@ -14369,20 +14397,6 @@ module.exports = {
                 "Tools & Utilities/Public APIs"
             ],
             "links": {
-                "Website": "http://goqr.me/api/"
-            },
-            "name": "QR code",
-            "description": "Generate and decode / read QR code graphics",
-            "auth": "",
-            "https": true,
-            "cors": "unknown",
-            "apiCategory": "Development"
-        },
-        {
-            "categories": [
-                "Tools & Utilities/Public APIs"
-            ],
-            "links": {
                 "Website": "https://www.qrtag.net/api/"
             },
             "name": "QR code",
@@ -14390,6 +14404,20 @@ module.exports = {
             "auth": "",
             "https": true,
             "cors": "yes",
+            "apiCategory": "Development"
+        },
+        {
+            "categories": [
+                "Tools & Utilities/Public APIs"
+            ],
+            "links": {
+                "Website": "http://goqr.me/api/"
+            },
+            "name": "QR code",
+            "description": "Generate and decode / read QR code graphics",
+            "auth": "",
+            "https": true,
+            "cors": "unknown",
             "apiCategory": "Development"
         },
         {
@@ -16077,20 +16105,6 @@ module.exports = {
                 "Tools & Utilities/Public APIs"
             ],
             "links": {
-                "Website": "https://api.spacex.land/graphql/"
-            },
-            "name": "SpaceX",
-            "description": "GraphQL, Company, Ships, launchpad and launch data",
-            "auth": "",
-            "https": true,
-            "cors": "unknown",
-            "apiCategory": "Science & Math"
-        },
-        {
-            "categories": [
-                "Tools & Utilities/Public APIs"
-            ],
-            "links": {
                 "Website": "https://github.com/r-spacex/SpaceX-API"
             },
             "name": "SpaceX",
@@ -16098,6 +16112,20 @@ module.exports = {
             "auth": "",
             "https": true,
             "cors": "no",
+            "apiCategory": "Science & Math"
+        },
+        {
+            "categories": [
+                "Tools & Utilities/Public APIs"
+            ],
+            "links": {
+                "Website": "https://api.spacex.land/graphql/"
+            },
+            "name": "SpaceX",
+            "description": "GraphQL, Company, Ships, launchpad and launch data",
+            "auth": "",
+            "https": true,
+            "cors": "unknown",
             "apiCategory": "Science & Math"
         },
         {
@@ -16357,11 +16385,11 @@ module.exports = {
                 "Tools & Utilities/Public APIs"
             ],
             "links": {
-                "Website": "https://github.com/Revadike/InternalSteamWebAPI/wiki"
+                "Website": "https://steamapi.xpaw.me/"
             },
             "name": "Steam",
-            "description": "Internal Steam Web API documentation",
-            "auth": "",
+            "description": "Steam Web API documentation",
+            "auth": "apiKey",
             "https": true,
             "cors": "no",
             "apiCategory": "Games & Comics"
@@ -16371,11 +16399,11 @@ module.exports = {
                 "Tools & Utilities/Public APIs"
             ],
             "links": {
-                "Website": "https://steamapi.xpaw.me/"
+                "Website": "https://github.com/Revadike/InternalSteamWebAPI/wiki"
             },
             "name": "Steam",
-            "description": "Steam Web API documentation",
-            "auth": "apiKey",
+            "description": "Internal Steam Web API documentation",
+            "auth": "",
             "https": true,
             "cors": "no",
             "apiCategory": "Games & Comics"
@@ -16609,10 +16637,10 @@ module.exports = {
                 "Tools & Utilities/Public APIs"
             ],
             "links": {
-                "Website": "https://www.swapi.tech"
+                "Website": "https://swapi.dev/"
             },
             "name": "SWAPI",
-            "description": "All things Star Wars",
+            "description": "All the Star Wars data you've ever wanted",
             "auth": "",
             "https": true,
             "cors": "yes",
@@ -16623,10 +16651,10 @@ module.exports = {
                 "Tools & Utilities/Public APIs"
             ],
             "links": {
-                "Website": "https://swapi.dev/"
+                "Website": "https://www.swapi.tech"
             },
             "name": "SWAPI",
-            "description": "All the Star Wars data you've ever wanted",
+            "description": "All things Star Wars",
             "auth": "",
             "https": true,
             "cors": "yes",
@@ -16799,6 +16827,20 @@ module.exports = {
             "https": true,
             "cors": "no",
             "apiCategory": "Cryptocurrency"
+        },
+        {
+            "categories": [
+                "Tools & Utilities/Public APIs"
+            ],
+            "links": {
+                "Website": "https://techy-api.vercel.app/"
+            },
+            "name": "Techy",
+            "description": "JSON and Plaintext API for tech-savvy sounding phrases",
+            "auth": "",
+            "https": true,
+            "cors": "unknown",
+            "apiCategory": "Entertainment"
         },
         {
             "categories": [
@@ -17911,12 +17953,12 @@ module.exports = {
                 "Tools & Utilities/Public APIs"
             ],
             "links": {
-                "Website": "http://www.ns.nl/reisinformatie/ns-api"
+                "Website": "https://github.com/skywave/KV78Turbo-OVAPI/wiki"
             },
             "name": "Transport for The Netherlands",
-            "description": "NS, only trains",
-            "auth": "apiKey",
-            "https": false,
+            "description": "OVAPI, country-wide public transport",
+            "auth": "",
+            "https": true,
             "cors": "unknown",
             "apiCategory": "Transportation"
         },
@@ -17925,12 +17967,12 @@ module.exports = {
                 "Tools & Utilities/Public APIs"
             ],
             "links": {
-                "Website": "https://github.com/skywave/KV78Turbo-OVAPI/wiki"
+                "Website": "http://www.ns.nl/reisinformatie/ns-api"
             },
             "name": "Transport for The Netherlands",
-            "description": "OVAPI, country-wide public transport",
-            "auth": "",
-            "https": true,
+            "description": "NS, only trains",
+            "auth": "apiKey",
+            "https": false,
             "cors": "unknown",
             "apiCategory": "Transportation"
         },
@@ -19305,6 +19347,20 @@ module.exports = {
             "https": true,
             "cors": "yes",
             "apiCategory": "Development"
+        },
+        {
+            "categories": [
+                "Tools & Utilities/Public APIs"
+            ],
+            "links": {
+                "Website": "https://api.websitecarbon.com/"
+            },
+            "name": "Website Carbon",
+            "description": "API to estimate the carbon footprint of loading web pages",
+            "auth": "",
+            "https": true,
+            "cors": "unknown",
+            "apiCategory": "Environment"
         },
         {
             "categories": [
@@ -28451,17 +28507,6 @@ module.exports = {
             "icon": "https://s3.amazonaws.com/codenewbie-assets/codenewbie-favicon-new.png"
         },
         {
-            "name": "Codepen radio",
-            "categories": [
-                "Programming/Podcasts"
-            ],
-            "description": "A podcast all about what it's like running a small web software business. The good, the bad, and the ugly.",
-            "links": {
-                "Website": "https://blog.codepen.io/radio/"
-            },
-            "icon": "https://cpwebassets.codepen.io/assets/favicon/favicon-touch-de50acbf5d634ec6791894eba4ba9cf490f709b3d742597c6fc4b734e6492a5a.png"
-        },
-        {
             "name": "CodePen Radio",
             "categories": [
                 "Programming/Podcasts"
@@ -28471,6 +28516,17 @@ module.exports = {
                 "Website": "https://blog.codepen.io/radio/"
             },
             "icon": "https://blog.codepen.io/favicon.ico"
+        },
+        {
+            "name": "Codepen radio",
+            "categories": [
+                "Programming/Podcasts"
+            ],
+            "description": "A podcast all about what it's like running a small web software business. The good, the bad, and the ugly.",
+            "links": {
+                "Website": "https://blog.codepen.io/radio/"
+            },
+            "icon": "https://cpwebassets.codepen.io/assets/favicon/favicon-touch-de50acbf5d634ec6791894eba4ba9cf490f709b3d742597c6fc4b734e6492a5a.png"
         },
         {
             "name": "Commit Your Code!",
