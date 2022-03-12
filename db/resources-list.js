@@ -715,19 +715,6 @@ module.exports = [
         "apiCategory": "Transportation"
     },
     {
-        "name": "Airtable",
-        "categories": [
-            "Indie Hacking/Utilities",
-            "Infrastructure/Databases",
-            "Infrastructure/Serverless"
-        ],
-        "description": "Airtable is a low-code platform for building collaborative apps. Customize your workflow, collaborate, and achieve ambitious outcomes. Get started for free.",
-        "links": {
-            "Website": "https://airtable.com/"
-        },
-        "icon": "https://airtable.com/images/favicon/baymax/favicon-32x32.png"
-    },
-    {
         "categories": [
             "Tools & Utilities/Public APIs"
         ],
@@ -740,6 +727,19 @@ module.exports = [
         "https": true,
         "cors": "unknown",
         "apiCategory": "Documents & Productivity"
+    },
+    {
+        "name": "Airtable",
+        "categories": [
+            "Indie Hacking/Utilities",
+            "Infrastructure/Databases",
+            "Infrastructure/Serverless"
+        ],
+        "description": "Airtable is a low-code platform for building collaborative apps. Customize your workflow, collaborate, and achieve ambitious outcomes. Get started for free.",
+        "links": {
+            "Website": "https://airtable.com/"
+        },
+        "icon": "https://airtable.com/images/favicon/baymax/favicon-32x32.png"
     },
     {
         "categories": [
@@ -4675,20 +4675,6 @@ module.exports = [
             "Tools & Utilities/Public APIs"
         ],
         "links": {
-            "Website": "https://cloudmersive.com/validate-api"
-        },
-        "name": "Cloudmersive Validate",
-        "description": "Validate email addresses, phone numbers, VAT numbers and domain names",
-        "auth": "apiKey",
-        "https": true,
-        "cors": "yes",
-        "apiCategory": "Email"
-    },
-    {
-        "categories": [
-            "Tools & Utilities/Public APIs"
-        ],
-        "links": {
             "Website": "https://cloudmersive.com/phone-number-validation-API"
         },
         "name": "Cloudmersive Validate",
@@ -4697,6 +4683,20 @@ module.exports = [
         "https": true,
         "cors": "yes",
         "apiCategory": "Phone"
+    },
+    {
+        "categories": [
+            "Tools & Utilities/Public APIs"
+        ],
+        "links": {
+            "Website": "https://cloudmersive.com/validate-api"
+        },
+        "name": "Cloudmersive Validate",
+        "description": "Validate email addresses, phone numbers, VAT numbers and domain names",
+        "auth": "apiKey",
+        "https": true,
+        "cors": "yes",
+        "apiCategory": "Email"
     },
     {
         "categories": [
@@ -5599,17 +5599,6 @@ module.exports = [
         "icon": "https://colorlib.com/wp/wp-content/uploads/sites/2/2014/05/ipad-colorlib.png"
     },
     {
-        "name": "Colormind",
-        "categories": [
-            "UI Design/Color"
-        ],
-        "description": "Generate color combinations in one click. Colormind creates cohesive color schemes using a deep neural net.",
-        "links": {
-            "Website": "http://colormind.io/"
-        },
-        "icon": "http://colormind.io/favicon32.gif"
-    },
-    {
         "categories": [
             "Tools & Utilities/Public APIs"
         ],
@@ -5622,6 +5611,17 @@ module.exports = [
         "https": false,
         "cors": "unknown",
         "apiCategory": "Art & Design"
+    },
+    {
+        "name": "Colormind",
+        "categories": [
+            "UI Design/Color"
+        ],
+        "description": "Generate color combinations in one click. Colormind creates cohesive color schemes using a deep neural net.",
+        "links": {
+            "Website": "http://colormind.io/"
+        },
+        "icon": "http://colormind.io/favicon32.gif"
     },
     {
         "name": "colors.lol",
@@ -7698,10 +7698,10 @@ module.exports = [
             "Tools & Utilities/Public APIs"
         ],
         "links": {
-            "Website": "https://dukengn.github.io/Dog-facts-API/"
+            "Website": "https://kinduff.github.io/dog-api/"
         },
         "name": "Dog Facts",
-        "description": "Random dog facts",
+        "description": "Random facts of Dogs",
         "auth": "",
         "https": true,
         "cors": "yes",
@@ -7712,10 +7712,10 @@ module.exports = [
             "Tools & Utilities/Public APIs"
         ],
         "links": {
-            "Website": "https://kinduff.github.io/dog-api/"
+            "Website": "https://dukengn.github.io/Dog-facts-API/"
         },
         "name": "Dog Facts",
-        "description": "Random facts of Dogs",
+        "description": "Random dog facts",
         "auth": "",
         "https": true,
         "cors": "yes",
@@ -11256,6 +11256,17 @@ module.exports = [
         "apiCategory": "Development"
     },
     {
+        "name": "Google Fonts",
+        "categories": [
+            "Assets/Fonts"
+        ],
+        "description": "Making the web more beautiful, fast, and open through great typography.",
+        "links": {
+            "Website": "https://fonts.google.com/"
+        },
+        "icon": "https://www.gstatic.com/images/branding/product/1x/google_fonts_blue_ios_96dp.png"
+    },
+    {
         "categories": [
             "Tools & Utilities/Public APIs"
         ],
@@ -11268,17 +11279,6 @@ module.exports = [
         "https": true,
         "cors": "unknown",
         "apiCategory": "Development"
-    },
-    {
-        "name": "Google Fonts",
-        "categories": [
-            "Assets/Fonts"
-        ],
-        "description": "Making the web more beautiful, fast, and open through great typography.",
-        "links": {
-            "Website": "https://fonts.google.com/"
-        },
-        "icon": "https://www.gstatic.com/images/branding/product/1x/google_fonts_blue_ios_96dp.png"
     },
     {
         "categories": [
@@ -11984,6 +11984,17 @@ module.exports = [
         "apiCategory": "Security"
     },
     {
+        "name": "Hashnode",
+        "categories": [
+            "Community/Blogs & Forums"
+        ],
+        "description": "Hashnode is a free content creation platform and community that allows you to publish articles on your own domain and helps you stay connected with a growing developer community.",
+        "links": {
+            "Website": "https://hashnode.com/"
+        },
+        "icon": "https://cdn.hashnode.com/res/hashnode/image/upload/v1592400819640/7VL8RW7wc.png"
+    },
+    {
         "categories": [
             "Tools & Utilities/Public APIs"
         ],
@@ -11996,17 +12007,6 @@ module.exports = [
         "https": true,
         "cors": "unknown",
         "apiCategory": "Social"
-    },
-    {
-        "name": "Hashnode",
-        "categories": [
-            "Community/Blogs & Forums"
-        ],
-        "description": "Hashnode is a free content creation platform and community that allows you to publish articles on your own domain and helps you stay connected with a growing developer community.",
-        "links": {
-            "Website": "https://hashnode.com/"
-        },
-        "icon": "https://cdn.hashnode.com/res/hashnode/image/upload/v1592400819640/7VL8RW7wc.png"
     },
     {
         "categories": [
@@ -12274,6 +12274,20 @@ module.exports = [
         "https": true,
         "cors": "unknown",
         "apiCategory": "Cryptocurrency"
+    },
+    {
+        "categories": [
+            "Tools & Utilities/Public APIs"
+        ],
+        "links": {
+            "Website": "https://faceapi.hirak.site/"
+        },
+        "name": "Hirak FaceAPI",
+        "description": "Face detection, face recognition with age estimation/gender estimation, accurate, no quota limits",
+        "auth": "apiKey",
+        "https": true,
+        "cors": "unknown",
+        "apiCategory": "Machine Learning"
     },
     {
         "name": "hire.AR",
@@ -16071,17 +16085,6 @@ module.exports = [
     {
         "name": "Material Design",
         "categories": [
-            "Assets/Icons"
-        ],
-        "description": "Get Material Icons.",
-        "links": {
-            "Website": "https://material.io/resources/icons"
-        },
-        "icon": "https://material.io/favicon.ico"
-    },
-    {
-        "name": "Material Design",
-        "categories": [
             "Programming/UI Kits & Libraries"
         ],
         "description": "Build beautiful, usable products faster. Material Design is an adaptable system—backed by open-source code—that helps teams build high quality digital experiences.",
@@ -16089,6 +16092,17 @@ module.exports = [
             "Website": "https://material.io/"
         },
         "icon": "https://material.io/static/assets/favicon.ico"
+    },
+    {
+        "name": "Material Design",
+        "categories": [
+            "Assets/Icons"
+        ],
+        "description": "Get Material Icons.",
+        "links": {
+            "Website": "https://material.io/resources/icons"
+        },
+        "icon": "https://material.io/favicon.ico"
     },
     {
         "name": "Material Design Palette",
@@ -16188,17 +16202,6 @@ module.exports = [
         "icon": "https://developer.mozilla.org/static/img/favicon72.cc65d1d762a0.png"
     },
     {
-        "name": "Medium",
-        "categories": [
-            "Community/Blogs & Forums"
-        ],
-        "description": "Medium is an open platform where readers find dynamic thinking, and where expert and undiscovered voices can share their writing on any topic.",
-        "links": {
-            "Website": "http://medium.com/"
-        },
-        "icon": "https://miro.medium.com/fit/c/76/76/1*sHhtYhaCe2Uc3IU0IgKwIQ.png"
-    },
-    {
         "categories": [
             "Tools & Utilities/Public APIs"
         ],
@@ -16211,6 +16214,17 @@ module.exports = [
         "https": true,
         "cors": "unknown",
         "apiCategory": "Personality"
+    },
+    {
+        "name": "Medium",
+        "categories": [
+            "Community/Blogs & Forums"
+        ],
+        "description": "Medium is an open platform where readers find dynamic thinking, and where expert and undiscovered voices can share their writing on any topic.",
+        "links": {
+            "Website": "http://medium.com/"
+        },
+        "icon": "https://miro.medium.com/fit/c/76/76/1*sHhtYhaCe2Uc3IU0IgKwIQ.png"
     },
     {
         "categories": [
@@ -17332,6 +17346,20 @@ module.exports = [
         "https": true,
         "cors": "unknown",
         "apiCategory": "Environment"
+    },
+    {
+        "categories": [
+            "Tools & Utilities/Public APIs"
+        ],
+        "links": {
+            "Website": "https://www.nps.gov/subjects/developer/"
+        },
+        "name": "National Park Service, US",
+        "description": "Data from the US National Park Service",
+        "auth": "apiKey",
+        "https": true,
+        "cors": "yes",
+        "apiCategory": "Government"
     },
     {
         "categories": [
@@ -18597,10 +18625,10 @@ module.exports = [
             "Tools & Utilities/Public APIs"
         ],
         "links": {
-            "Website": "https://www.inegi.org.mx/datos/"
+            "Website": "https://datos.gob.mx/"
         },
         "name": "Open Government, Mexico",
-        "description": "Mexican Statistical Government Open Data",
+        "description": "Mexico Government Open Data",
         "auth": "",
         "https": true,
         "cors": "unknown",
@@ -18611,10 +18639,10 @@ module.exports = [
             "Tools & Utilities/Public APIs"
         ],
         "links": {
-            "Website": "https://datos.gob.mx/"
+            "Website": "https://www.inegi.org.mx/datos/"
         },
         "name": "Open Government, Mexico",
-        "description": "Mexico Government Open Data",
+        "description": "Mexican Statistical Government Open Data",
         "auth": "",
         "https": true,
         "cors": "unknown",
@@ -19759,20 +19787,6 @@ module.exports = [
         "apiCategory": "Animals"
     },
     {
-        "categories": [
-            "Tools & Utilities/Public APIs"
-        ],
-        "links": {
-            "Website": "https://www.pexels.com/api/"
-        },
-        "name": "Pexels",
-        "description": "Free Stock Photos and Videos",
-        "auth": "apiKey",
-        "https": true,
-        "cors": "yes",
-        "apiCategory": "Photography"
-    },
-    {
         "name": "Pexels",
         "categories": [
             "Assets/Videos",
@@ -19791,6 +19805,20 @@ module.exports = [
             "Website": "https://www.pexels.com/"
         },
         "icon": "https://www.pexels.com/assets/icons/pexels-icon-644533b609157fd990b1a6675626d63077ae1fb81e819c83f81dc2242877d413.png"
+    },
+    {
+        "categories": [
+            "Tools & Utilities/Public APIs"
+        ],
+        "links": {
+            "Website": "https://www.pexels.com/api/"
+        },
+        "name": "Pexels",
+        "description": "Free Stock Photos and Videos",
+        "auth": "apiKey",
+        "https": true,
+        "cors": "yes",
+        "apiCategory": "Photography"
     },
     {
         "categories": [
@@ -19941,6 +19969,19 @@ module.exports = [
         "apiCategory": "Social"
     },
     {
+        "name": "Pixabay",
+        "categories": [
+            "Assets/Videos",
+            "Assets/Images",
+            "Assets/Illustrations"
+        ],
+        "description": "Pixabay.com is a website for sharing photos, illustrations, vector graphics, film footage and music.",
+        "links": {
+            "Website": "https://pixabay.com/"
+        },
+        "icon": "https://pixabay.com/favicon-32x32.png"
+    },
+    {
         "categories": [
             "Tools & Utilities/Public APIs"
         ],
@@ -19953,19 +19994,6 @@ module.exports = [
         "https": true,
         "cors": "unknown",
         "apiCategory": "Photography"
-    },
-    {
-        "name": "Pixabay",
-        "categories": [
-            "Assets/Videos",
-            "Assets/Images",
-            "Assets/Illustrations"
-        ],
-        "description": "Pixabay.com is a website for sharing photos, illustrations, vector graphics, film footage and music.",
-        "links": {
-            "Website": "https://pixabay.com/"
-        },
-        "icon": "https://pixabay.com/favicon-32x32.png"
     },
     {
         "categories": [
@@ -20377,6 +20405,17 @@ module.exports = [
         "icon": "https://www.postgresql.org/favicon.ico"
     },
     {
+        "name": "Postman",
+        "categories": [
+            "Tools & Utilities/API Building"
+        ],
+        "description": "Postman makes API development easy. Our platform offers the tools to simplify each step of the API building process and streamlines collaboration so you can create better APIs faster.",
+        "links": {
+            "Website": "https://www.postman.com/"
+        },
+        "icon": "https://www.postman.com/web-assets/icons/icon-96x96.png?v=13d51aa1bbfaacb557bf41b85783e441"
+    },
+    {
         "categories": [
             "Tools & Utilities/Public APIs"
         ],
@@ -20389,17 +20428,6 @@ module.exports = [
         "https": true,
         "cors": "unknown",
         "apiCategory": "Development"
-    },
-    {
-        "name": "Postman",
-        "categories": [
-            "Tools & Utilities/API Building"
-        ],
-        "description": "Postman makes API development easy. Our platform offers the tools to simplify each step of the API building process and streamlines collaboration so you can create better APIs faster.",
-        "links": {
-            "Website": "https://www.postman.com/"
-        },
-        "icon": "https://www.postman.com/web-assets/icons/icon-96x96.png?v=13d51aa1bbfaacb557bf41b85783e441"
     },
     {
         "categories": [
@@ -20497,6 +20525,17 @@ module.exports = [
         "apiCategory": "Security"
     },
     {
+        "name": "Product Hunt",
+        "categories": [
+            "Indie Hacking/Platforms"
+        ],
+        "description": "Product Hunt is a curation of the best new products, every day. Discover the latest mobile apps, websites, and technology products that everyone's talking about.",
+        "links": {
+            "Website": "https://www.producthunt.com/"
+        },
+        "icon": "https://ph-static.imgix.net/ph-ios-icon.png?auto=format&auto=compress"
+    },
+    {
         "categories": [
             "Tools & Utilities/Public APIs"
         ],
@@ -20509,17 +20548,6 @@ module.exports = [
         "https": true,
         "cors": "unknown",
         "apiCategory": "Social"
-    },
-    {
-        "name": "Product Hunt",
-        "categories": [
-            "Indie Hacking/Platforms"
-        ],
-        "description": "Product Hunt is a curation of the best new products, every day. Discover the latest mobile apps, websites, and technology products that everyone's talking about.",
-        "links": {
-            "Website": "https://www.producthunt.com/"
-        },
-        "icon": "https://ph-static.imgix.net/ph-ios-icon.png?auto=format&auto=compress"
     },
     {
         "name": "Programiz",
@@ -20878,20 +20906,6 @@ module.exports = [
             "Tools & Utilities/Public APIs"
         ],
         "links": {
-            "Website": "https://www.qrtag.net/api/"
-        },
-        "name": "QR code",
-        "description": "Create an easy to read QR code and URL shortener",
-        "auth": "",
-        "https": true,
-        "cors": "yes",
-        "apiCategory": "Development"
-    },
-    {
-        "categories": [
-            "Tools & Utilities/Public APIs"
-        ],
-        "links": {
             "Website": "http://goqr.me/api/"
         },
         "name": "QR code",
@@ -20899,6 +20913,20 @@ module.exports = [
         "auth": "",
         "https": true,
         "cors": "unknown",
+        "apiCategory": "Development"
+    },
+    {
+        "categories": [
+            "Tools & Utilities/Public APIs"
+        ],
+        "links": {
+            "Website": "https://www.qrtag.net/api/"
+        },
+        "name": "QR code",
+        "description": "Create an easy to read QR code and URL shortener",
+        "auth": "",
+        "https": true,
+        "cors": "yes",
         "apiCategory": "Development"
     },
     {
@@ -21780,17 +21808,6 @@ module.exports = [
         "icon": "https://remotive.io/web/image/website/1/favicon/"
     },
     {
-        "name": "remove.bg",
-        "categories": [
-            "Assets/Images"
-        ],
-        "description": "Remove Image Background: 100% automatically – in 5 seconds – without a single click – for free.",
-        "links": {
-            "Website": "https://www.remove.bg/"
-        },
-        "icon": "https://www.remove.bg/favicon-32x32.png?v=YAXaAv7pao"
-    },
-    {
         "categories": [
             "Tools & Utilities/Public APIs"
         ],
@@ -21803,6 +21820,17 @@ module.exports = [
         "https": true,
         "cors": "unknown",
         "apiCategory": "Photography"
+    },
+    {
+        "name": "remove.bg",
+        "categories": [
+            "Assets/Images"
+        ],
+        "description": "Remove Image Background: 100% automatically – in 5 seconds – without a single click – for free.",
+        "links": {
+            "Website": "https://www.remove.bg/"
+        },
+        "icon": "https://www.remove.bg/favicon-32x32.png?v=YAXaAv7pao"
     },
     {
         "name": "Render",
@@ -23049,19 +23077,6 @@ module.exports = [
         "apiCategory": "URL Shorteners"
     },
     {
-        "name": "Shutterstock",
-        "categories": [
-            "Assets/Videos",
-            "Assets/Images",
-            "Assets/Icons"
-        ],
-        "description": "Download the best royalty free images from Shutterstock, including photos, vectors, and illustrations. Enjoy straightforward pricing and simple licensing.",
-        "links": {
-            "Website": "https://www.shutterstock.com/"
-        },
-        "icon": "https://ak.picdn.net/assets/cms/sstk-favicon-72.png"
-    },
-    {
         "categories": [
             "Tools & Utilities/Public APIs"
         ],
@@ -23074,6 +23089,19 @@ module.exports = [
         "https": true,
         "cors": "unknown",
         "apiCategory": "Photography"
+    },
+    {
+        "name": "Shutterstock",
+        "categories": [
+            "Assets/Videos",
+            "Assets/Images",
+            "Assets/Icons"
+        ],
+        "description": "Download the best royalty free images from Shutterstock, including photos, vectors, and illustrations. Enjoy straightforward pricing and simple licensing.",
+        "links": {
+            "Website": "https://www.shutterstock.com/"
+        },
+        "icon": "https://ak.picdn.net/assets/cms/sstk-favicon-72.png"
     },
     {
         "name": "Sidebar",
@@ -24069,11 +24097,11 @@ module.exports = [
             "Tools & Utilities/Public APIs"
         ],
         "links": {
-            "Website": "https://steamapi.xpaw.me/"
+            "Website": "https://github.com/Revadike/InternalSteamWebAPI/wiki"
         },
         "name": "Steam",
-        "description": "Steam Web API documentation",
-        "auth": "apiKey",
+        "description": "Internal Steam Web API documentation",
+        "auth": "",
         "https": true,
         "cors": "no",
         "apiCategory": "Games & Comics"
@@ -24083,11 +24111,11 @@ module.exports = [
             "Tools & Utilities/Public APIs"
         ],
         "links": {
-            "Website": "https://github.com/Revadike/InternalSteamWebAPI/wiki"
+            "Website": "https://steamapi.xpaw.me/"
         },
         "name": "Steam",
-        "description": "Internal Steam Web API documentation",
-        "auth": "",
+        "description": "Steam Web API documentation",
+        "auth": "apiKey",
         "https": true,
         "cors": "no",
         "apiCategory": "Games & Comics"
@@ -24468,10 +24496,10 @@ module.exports = [
             "Tools & Utilities/Public APIs"
         ],
         "links": {
-            "Website": "https://swapi.dev/"
+            "Website": "https://www.swapi.tech"
         },
         "name": "SWAPI",
-        "description": "All the Star Wars data you've ever wanted",
+        "description": "All things Star Wars",
         "auth": "",
         "https": true,
         "cors": "yes",
@@ -24482,10 +24510,10 @@ module.exports = [
             "Tools & Utilities/Public APIs"
         ],
         "links": {
-            "Website": "https://www.swapi.tech"
+            "Website": "https://swapi.dev/"
         },
         "name": "SWAPI",
-        "description": "All things Star Wars",
+        "description": "All the Star Wars data you've ever wanted",
         "auth": "",
         "https": true,
         "cors": "yes",
@@ -27032,17 +27060,6 @@ module.exports = [
         "icon": "https://www.unscreen.com/favicon-96x96.png"
     },
     {
-        "name": "Unsplash",
-        "categories": [
-            "Assets/Images"
-        ],
-        "description": "Beautiful, free images and photos that you can download and use for any project. Better than any royalty free or stock photos.",
-        "links": {
-            "Website": "https://unsplash.com/"
-        },
-        "icon": "https://unsplash.com/favicon-32x32.png"
-    },
-    {
         "categories": [
             "Tools & Utilities/Public APIs"
         ],
@@ -27055,6 +27072,17 @@ module.exports = [
         "https": true,
         "cors": "unknown",
         "apiCategory": "Photography"
+    },
+    {
+        "name": "Unsplash",
+        "categories": [
+            "Assets/Images"
+        ],
+        "description": "Beautiful, free images and photos that you can download and use for any project. Better than any royalty free or stock photos.",
+        "links": {
+            "Website": "https://unsplash.com/"
+        },
+        "icon": "https://unsplash.com/favicon-32x32.png"
     },
     {
         "categories": [

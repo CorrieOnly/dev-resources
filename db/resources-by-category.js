@@ -3449,20 +3449,6 @@ module.exports = {
                 "Tools & Utilities/Public APIs"
             ],
             "links": {
-                "Website": "https://cloudmersive.com/validate-api"
-            },
-            "name": "Cloudmersive Validate",
-            "description": "Validate email addresses, phone numbers, VAT numbers and domain names",
-            "auth": "apiKey",
-            "https": true,
-            "cors": "yes",
-            "apiCategory": "Email"
-        },
-        {
-            "categories": [
-                "Tools & Utilities/Public APIs"
-            ],
-            "links": {
                 "Website": "https://cloudmersive.com/phone-number-validation-API"
             },
             "name": "Cloudmersive Validate",
@@ -3471,6 +3457,20 @@ module.exports = {
             "https": true,
             "cors": "yes",
             "apiCategory": "Phone"
+        },
+        {
+            "categories": [
+                "Tools & Utilities/Public APIs"
+            ],
+            "links": {
+                "Website": "https://cloudmersive.com/validate-api"
+            },
+            "name": "Cloudmersive Validate",
+            "description": "Validate email addresses, phone numbers, VAT numbers and domain names",
+            "auth": "apiKey",
+            "https": true,
+            "cors": "yes",
+            "apiCategory": "Email"
         },
         {
             "categories": [
@@ -5115,10 +5115,10 @@ module.exports = {
                 "Tools & Utilities/Public APIs"
             ],
             "links": {
-                "Website": "https://dukengn.github.io/Dog-facts-API/"
+                "Website": "https://kinduff.github.io/dog-api/"
             },
             "name": "Dog Facts",
-            "description": "Random dog facts",
+            "description": "Random facts of Dogs",
             "auth": "",
             "https": true,
             "cors": "yes",
@@ -5129,10 +5129,10 @@ module.exports = {
                 "Tools & Utilities/Public APIs"
             ],
             "links": {
-                "Website": "https://kinduff.github.io/dog-api/"
+                "Website": "https://dukengn.github.io/Dog-facts-API/"
             },
             "name": "Dog Facts",
-            "description": "Random facts of Dogs",
+            "description": "Random dog facts",
             "auth": "",
             "https": true,
             "cors": "yes",
@@ -8063,6 +8063,20 @@ module.exports = {
             "https": true,
             "cors": "unknown",
             "apiCategory": "Cryptocurrency"
+        },
+        {
+            "categories": [
+                "Tools & Utilities/Public APIs"
+            ],
+            "links": {
+                "Website": "https://faceapi.hirak.site/"
+            },
+            "name": "Hirak FaceAPI",
+            "description": "Face detection, face recognition with age estimation/gender estimation, accurate, no quota limits",
+            "auth": "apiKey",
+            "https": true,
+            "cors": "unknown",
+            "apiCategory": "Machine Learning"
         },
         {
             "categories": [
@@ -11555,6 +11569,20 @@ module.exports = {
                 "Tools & Utilities/Public APIs"
             ],
             "links": {
+                "Website": "https://www.nps.gov/subjects/developer/"
+            },
+            "name": "National Park Service, US",
+            "description": "Data from the US National Park Service",
+            "auth": "apiKey",
+            "https": true,
+            "cors": "yes",
+            "apiCategory": "Government"
+        },
+        {
+            "categories": [
+                "Tools & Utilities/Public APIs"
+            ],
+            "links": {
                 "Website": "https://nvd.nist.gov/vuln/Data-Feeds/JSON-feed-changelog"
             },
             "name": "National Vulnerability Database",
@@ -12619,10 +12647,10 @@ module.exports = {
                 "Tools & Utilities/Public APIs"
             ],
             "links": {
-                "Website": "https://www.inegi.org.mx/datos/"
+                "Website": "https://datos.gob.mx/"
             },
             "name": "Open Government, Mexico",
-            "description": "Mexican Statistical Government Open Data",
+            "description": "Mexico Government Open Data",
             "auth": "",
             "https": true,
             "cors": "unknown",
@@ -12633,10 +12661,10 @@ module.exports = {
                 "Tools & Utilities/Public APIs"
             ],
             "links": {
-                "Website": "https://datos.gob.mx/"
+                "Website": "https://www.inegi.org.mx/datos/"
             },
             "name": "Open Government, Mexico",
-            "description": "Mexico Government Open Data",
+            "description": "Mexican Statistical Government Open Data",
             "auth": "",
             "https": true,
             "cors": "unknown",
@@ -14397,20 +14425,6 @@ module.exports = {
                 "Tools & Utilities/Public APIs"
             ],
             "links": {
-                "Website": "https://www.qrtag.net/api/"
-            },
-            "name": "QR code",
-            "description": "Create an easy to read QR code and URL shortener",
-            "auth": "",
-            "https": true,
-            "cors": "yes",
-            "apiCategory": "Development"
-        },
-        {
-            "categories": [
-                "Tools & Utilities/Public APIs"
-            ],
-            "links": {
                 "Website": "http://goqr.me/api/"
             },
             "name": "QR code",
@@ -14418,6 +14432,20 @@ module.exports = {
             "auth": "",
             "https": true,
             "cors": "unknown",
+            "apiCategory": "Development"
+        },
+        {
+            "categories": [
+                "Tools & Utilities/Public APIs"
+            ],
+            "links": {
+                "Website": "https://www.qrtag.net/api/"
+            },
+            "name": "QR code",
+            "description": "Create an easy to read QR code and URL shortener",
+            "auth": "",
+            "https": true,
+            "cors": "yes",
             "apiCategory": "Development"
         },
         {
@@ -16385,11 +16413,11 @@ module.exports = {
                 "Tools & Utilities/Public APIs"
             ],
             "links": {
-                "Website": "https://steamapi.xpaw.me/"
+                "Website": "https://github.com/Revadike/InternalSteamWebAPI/wiki"
             },
             "name": "Steam",
-            "description": "Steam Web API documentation",
-            "auth": "apiKey",
+            "description": "Internal Steam Web API documentation",
+            "auth": "",
             "https": true,
             "cors": "no",
             "apiCategory": "Games & Comics"
@@ -16399,11 +16427,11 @@ module.exports = {
                 "Tools & Utilities/Public APIs"
             ],
             "links": {
-                "Website": "https://github.com/Revadike/InternalSteamWebAPI/wiki"
+                "Website": "https://steamapi.xpaw.me/"
             },
             "name": "Steam",
-            "description": "Internal Steam Web API documentation",
-            "auth": "",
+            "description": "Steam Web API documentation",
+            "auth": "apiKey",
             "https": true,
             "cors": "no",
             "apiCategory": "Games & Comics"
@@ -16637,10 +16665,10 @@ module.exports = {
                 "Tools & Utilities/Public APIs"
             ],
             "links": {
-                "Website": "https://swapi.dev/"
+                "Website": "https://www.swapi.tech"
             },
             "name": "SWAPI",
-            "description": "All the Star Wars data you've ever wanted",
+            "description": "All things Star Wars",
             "auth": "",
             "https": true,
             "cors": "yes",
@@ -16651,10 +16679,10 @@ module.exports = {
                 "Tools & Utilities/Public APIs"
             ],
             "links": {
-                "Website": "https://www.swapi.tech"
+                "Website": "https://swapi.dev/"
             },
             "name": "SWAPI",
-            "description": "All things Star Wars",
+            "description": "All the Star Wars data you've ever wanted",
             "auth": "",
             "https": true,
             "cors": "yes",
