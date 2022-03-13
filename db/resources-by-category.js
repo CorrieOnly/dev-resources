@@ -1671,11 +1671,11 @@ module.exports = {
                 "Tools & Utilities/Public APIs"
             ],
             "links": {
-                "Website": "https://bhagavadgita.io/api"
+                "Website": "https://docs.bhagavadgitaapi.in"
             },
             "name": "Bhagavad Gita",
-            "description": "Bhagavad Gita text",
-            "auth": "OAuth",
+            "description": "Open Source Shrimad Bhagavad Gita API including 21+ authors translation in Sanskrit/English/Hindi",
+            "auth": "apiKey",
             "https": true,
             "cors": "yes",
             "apiCategory": "Books"
@@ -1685,11 +1685,11 @@ module.exports = {
                 "Tools & Utilities/Public APIs"
             ],
             "links": {
-                "Website": "https://docs.bhagavadgitaapi.in"
+                "Website": "https://bhagavadgita.io/api"
             },
             "name": "Bhagavad Gita",
-            "description": "Open Source Shrimad Bhagavad Gita API including 21+ authors translation in Sanskrit/English/Hindi",
-            "auth": "apiKey",
+            "description": "Bhagavad Gita text",
+            "auth": "OAuth",
             "https": true,
             "cors": "yes",
             "apiCategory": "Books"
@@ -3449,20 +3449,6 @@ module.exports = {
                 "Tools & Utilities/Public APIs"
             ],
             "links": {
-                "Website": "https://cloudmersive.com/phone-number-validation-API"
-            },
-            "name": "Cloudmersive Validate",
-            "description": "Validate international phone numbers",
-            "auth": "apiKey",
-            "https": true,
-            "cors": "yes",
-            "apiCategory": "Phone"
-        },
-        {
-            "categories": [
-                "Tools & Utilities/Public APIs"
-            ],
-            "links": {
                 "Website": "https://cloudmersive.com/validate-api"
             },
             "name": "Cloudmersive Validate",
@@ -3471,6 +3457,20 @@ module.exports = {
             "https": true,
             "cors": "yes",
             "apiCategory": "Email"
+        },
+        {
+            "categories": [
+                "Tools & Utilities/Public APIs"
+            ],
+            "links": {
+                "Website": "https://cloudmersive.com/phone-number-validation-API"
+            },
+            "name": "Cloudmersive Validate",
+            "description": "Validate international phone numbers",
+            "auth": "apiKey",
+            "https": true,
+            "cors": "yes",
+            "apiCategory": "Phone"
         },
         {
             "categories": [
@@ -4163,10 +4163,10 @@ module.exports = {
                 "Tools & Utilities/Public APIs"
             ],
             "links": {
-                "Website": "https://github.com/M-Media-Group/Covid-19-API"
+                "Website": "https://covid19api.com/"
             },
             "name": "Covid-19",
-            "description": "Covid 19 cases, deaths and recovery per country",
+            "description": "Covid 19 spread, infection and recovery",
             "auth": "",
             "https": true,
             "cors": "yes",
@@ -4177,10 +4177,10 @@ module.exports = {
                 "Tools & Utilities/Public APIs"
             ],
             "links": {
-                "Website": "https://covid19api.com/"
+                "Website": "https://github.com/M-Media-Group/Covid-19-API"
             },
             "name": "Covid-19",
-            "description": "Covid 19 spread, infection and recovery",
+            "description": "Covid 19 cases, deaths and recovery per country",
             "auth": "",
             "https": true,
             "cors": "yes",
@@ -5115,10 +5115,10 @@ module.exports = {
                 "Tools & Utilities/Public APIs"
             ],
             "links": {
-                "Website": "https://kinduff.github.io/dog-api/"
+                "Website": "https://dukengn.github.io/Dog-facts-API/"
             },
             "name": "Dog Facts",
-            "description": "Random facts of Dogs",
+            "description": "Random dog facts",
             "auth": "",
             "https": true,
             "cors": "yes",
@@ -5129,10 +5129,10 @@ module.exports = {
                 "Tools & Utilities/Public APIs"
             ],
             "links": {
-                "Website": "https://dukengn.github.io/Dog-facts-API/"
+                "Website": "https://kinduff.github.io/dog-api/"
             },
             "name": "Dog Facts",
-            "description": "Random dog facts",
+            "description": "Random facts of Dogs",
             "auth": "",
             "https": true,
             "cors": "yes",
@@ -8077,6 +8077,20 @@ module.exports = {
             "https": true,
             "cors": "unknown",
             "apiCategory": "Machine Learning"
+        },
+        {
+            "categories": [
+                "Tools & Utilities/Public APIs"
+            ],
+            "links": {
+                "Website": "https://translate.hirak.site/"
+            },
+            "name": "Hirak Translation",
+            "description": "Translate between 21 of most used languages, accurate, unlimited requests",
+            "auth": "apiKey",
+            "https": true,
+            "cors": "unknown",
+            "apiCategory": "Text Analysis"
         },
         {
             "categories": [
@@ -11891,20 +11905,6 @@ module.exports = {
                 "Tools & Utilities/Public APIs"
             ],
             "links": {
-                "Website": "https://isdayoff.ru"
-            },
-            "name": "Non-Working Days",
-            "description": "Simple REST API for checking working, non-working or short days for Russia, CIS, USA and other",
-            "auth": "",
-            "https": true,
-            "cors": "yes",
-            "apiCategory": "Calendar"
-        },
-        {
-            "categories": [
-                "Tools & Utilities/Public APIs"
-            ],
-            "links": {
                 "Website": "https://github.com/gadael/icsdb"
             },
             "name": "Non-Working Days",
@@ -11912,6 +11912,20 @@ module.exports = {
             "auth": "",
             "https": true,
             "cors": "unknown",
+            "apiCategory": "Calendar"
+        },
+        {
+            "categories": [
+                "Tools & Utilities/Public APIs"
+            ],
+            "links": {
+                "Website": "https://isdayoff.ru"
+            },
+            "name": "Non-Working Days",
+            "description": "Simple REST API for checking working, non-working or short days for Russia, CIS, USA and other",
+            "auth": "",
+            "https": true,
+            "cors": "yes",
             "apiCategory": "Calendar"
         },
         {
@@ -12647,10 +12661,10 @@ module.exports = {
                 "Tools & Utilities/Public APIs"
             ],
             "links": {
-                "Website": "https://datos.gob.mx/"
+                "Website": "https://www.inegi.org.mx/datos/"
             },
             "name": "Open Government, Mexico",
-            "description": "Mexico Government Open Data",
+            "description": "Mexican Statistical Government Open Data",
             "auth": "",
             "https": true,
             "cors": "unknown",
@@ -12661,10 +12675,10 @@ module.exports = {
                 "Tools & Utilities/Public APIs"
             ],
             "links": {
-                "Website": "https://www.inegi.org.mx/datos/"
+                "Website": "https://datos.gob.mx/"
             },
             "name": "Open Government, Mexico",
-            "description": "Mexican Statistical Government Open Data",
+            "description": "Mexico Government Open Data",
             "auth": "",
             "https": true,
             "cors": "unknown",
@@ -14425,20 +14439,6 @@ module.exports = {
                 "Tools & Utilities/Public APIs"
             ],
             "links": {
-                "Website": "http://goqr.me/api/"
-            },
-            "name": "QR code",
-            "description": "Generate and decode / read QR code graphics",
-            "auth": "",
-            "https": true,
-            "cors": "unknown",
-            "apiCategory": "Development"
-        },
-        {
-            "categories": [
-                "Tools & Utilities/Public APIs"
-            ],
-            "links": {
                 "Website": "https://www.qrtag.net/api/"
             },
             "name": "QR code",
@@ -14446,6 +14446,20 @@ module.exports = {
             "auth": "",
             "https": true,
             "cors": "yes",
+            "apiCategory": "Development"
+        },
+        {
+            "categories": [
+                "Tools & Utilities/Public APIs"
+            ],
+            "links": {
+                "Website": "http://goqr.me/api/"
+            },
+            "name": "QR code",
+            "description": "Generate and decode / read QR code graphics",
+            "auth": "",
+            "https": true,
+            "cors": "unknown",
             "apiCategory": "Development"
         },
         {
@@ -17953,20 +17967,6 @@ module.exports = {
                 "Tools & Utilities/Public APIs"
             ],
             "links": {
-                "Website": "https://opentransportdata.swiss/en/"
-            },
-            "name": "Transport for Switzerland",
-            "description": "Official Swiss Public Transport Open Data",
-            "auth": "apiKey",
-            "https": true,
-            "cors": "unknown",
-            "apiCategory": "Transportation"
-        },
-        {
-            "categories": [
-                "Tools & Utilities/Public APIs"
-            ],
-            "links": {
                 "Website": "https://transport.opendata.ch/"
             },
             "name": "Transport for Switzerland",
@@ -17981,11 +17981,11 @@ module.exports = {
                 "Tools & Utilities/Public APIs"
             ],
             "links": {
-                "Website": "https://github.com/skywave/KV78Turbo-OVAPI/wiki"
+                "Website": "https://opentransportdata.swiss/en/"
             },
-            "name": "Transport for The Netherlands",
-            "description": "OVAPI, country-wide public transport",
-            "auth": "",
+            "name": "Transport for Switzerland",
+            "description": "Official Swiss Public Transport Open Data",
+            "auth": "apiKey",
             "https": true,
             "cors": "unknown",
             "apiCategory": "Transportation"
@@ -18001,6 +18001,20 @@ module.exports = {
             "description": "NS, only trains",
             "auth": "apiKey",
             "https": false,
+            "cors": "unknown",
+            "apiCategory": "Transportation"
+        },
+        {
+            "categories": [
+                "Tools & Utilities/Public APIs"
+            ],
+            "links": {
+                "Website": "https://github.com/skywave/KV78Turbo-OVAPI/wiki"
+            },
+            "name": "Transport for The Netherlands",
+            "description": "OVAPI, country-wide public transport",
+            "auth": "",
+            "https": true,
             "cors": "unknown",
             "apiCategory": "Transportation"
         },
@@ -19093,7 +19107,7 @@ module.exports = {
             "description": "Get waifu pictures from an archive of over 4000 images and multiple tags",
             "auth": "",
             "https": true,
-            "cors": "no",
+            "cors": "yes",
             "apiCategory": "Anime"
         },
         {
@@ -19179,6 +19193,20 @@ module.exports = {
             "https": true,
             "cors": "unknown",
             "apiCategory": "Development"
+        },
+        {
+            "categories": [
+                "Tools & Utilities/Public APIs"
+            ],
+            "links": {
+                "Website": "https://api.wfstats.cf"
+            },
+            "name": "Warface (non-official)",
+            "description": "Official API proxy with better data structure and more features",
+            "auth": "",
+            "https": true,
+            "cors": "no",
+            "apiCategory": "Games & Comics"
         },
         {
             "categories": [
